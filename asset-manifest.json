@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a54dad42.chunk.css",
-    "main.js": "/static/js/main.30267ea6.chunk.js",
-    "main.js.map": "/static/js/main.30267ea6.chunk.js.map",
+    "main.js": "/static/js/main.025f2b76.chunk.js",
+    "main.js.map": "/static/js/main.025f2b76.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.48569ecf.js",
     "runtime-main.js.map": "/static/js/runtime-main.48569ecf.js.map",
     "static/css/2.688491a9.chunk.css": "/static/css/2.688491a9.chunk.css",
@@ -22,13 +22,14 @@
     "static/media/scoreboard.e134cb0d.PNG": "/static/media/scoreboard.e134cb0d.PNG",
     "static/media/signup.8141ab93.PNG": "/static/media/signup.8141ab93.PNG",
     "static/media/toDo.230bf8c2.PNG": "/static/media/toDo.230bf8c2.PNG",
-    "static/media/tts.1b0f4177.PNG": "/static/media/tts.1b0f4177.PNG"
+    "static/media/tts.1b0f4177.PNG": "/static/media/tts.1b0f4177.PNG",
+    "static/media/weather.dc0785e2.PNG": "/static/media/weather.dc0785e2.PNG"
   },
   "entrypoints": [
     "static/js/runtime-main.48569ecf.js",
     "static/css/2.688491a9.chunk.css",
     "static/js/2.d7108fbc.chunk.js",
     "static/css/main.a54dad42.chunk.css",
-    "static/js/main.30267ea6.chunk.js"
+    "static/js/main.025f2b76.chunk.js"
   ]
 }
