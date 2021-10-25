@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="stylesheet" media="screen and (max-width: 400px)" href="assets\css\mobile.css" />
+  <link rel="stylesheet" media="screen and (min-width: 401px) and (max-width:600px) and (max-height:799px)" href="assets\css\mobileLrg.css" />
+  <link rel="stylesheet" media="screen and (min-width: 370px) and (max-width:600px) and (min-height:800px)" href="assets\css\mobileTall.css" />
+  <link rel="stylesheet" media="screen and (min-width: 601px) and (max-width:1019px)" href="assets\css\tablet.css" />
+  <link rel="stylesheet" media="screen and (min-width: 1020px) and (max-width:1249px)" href="assets\css\tabletLrg.css" />
+  <link rel="stylesheet" media='screen and (min-width:1250px) and (max-width:1749px)' href="assets\css\desktopsml.css" />
+  <link rel='stylesheet' media='screen and (min-width: 1750px)' href='assets\css\desktopLrg.css' />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets\images\favicon.ico" />
+  <title>Anthony's Portfolio</title>
+</head>
+
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="assets\images\logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+       Anthony De la Torre- Web Developer
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" onClick="document.getElementById('projects').scrollIntoView();">Projects</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" onClick="document.getElementById('education').scrollIntoView();">Education</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" onClick="document.getElementById('contact').scrollIntoView();">Contact me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--Landing jumbotron -->
+  <div class="jumbotron jumbotron-fluid jumbotronLander">
+    <div class="container">
+      <div class="skillsLander">
+        <div class="landingLinks">
+          <a href="https://github.com/Youspeakcubic" target="_blank"><img class="link" src="assets\images\githubIco2.png" </a>
+            <br />
+            <a href="assets\images\resume.pdf" target="_blank"><img class="link" src="assets\images\resumeico.png" </a>
+        </div>
+        <div id="typeWriterContainer"></div>
+        <h2>I was always the kid on his computer during lunch and making electronics, now as an adult that passion has only grown. I love to create seamless products, and innovative functional applications. Currently taking courses in and outside of
+          college to become a well rounded web developer. I am hoping to find opportunities that help me grow alongside a well knit team working with new technlogies as to never become comfortable with my current skills.</h2>
+        <hr />
+        <br />
+        <a>
+          <h2 class="arrow"> find out more about me! </h2>
+          <h2 class="arrow">&darr;</h2>
+        </a>
+      </div>
+      <img class="bustImg" src="assets\images\bust.png" />
+    </div>
+  </div>
+
+
+  <hr class="seperator" />
+  <!-- skill image carousel -->
+  <section>
+    <h1 class="SkillTitle">My skills:</h>
+      <hr />
+      <article>
+        <div>
+          <ul>
+            <li><img src="assets\images\htmlico.png" /></li>
+            <li><img src="assets\images\cssico.png" /></li>
+            <li><img src="assets\images\javascriptico.png" /></li>
+            <li><img src="assets\images\bootstrapico.png" /></li>
+            <li><img src="assets\images\reactico.png" /></li>
+            <li><img src="assets\images\photoshopico.png" /></li>
+            <li><img src="assets\images\stackoverflowico.png" /></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><img src="assets\images\htmlico.png" /></li>
+            <li><img src="assets\images\cssico.png" /></li>
+            <li><img src="assets\images\javascriptico.png" /></li>
+            <li><img src="assets\images\bootstrapico.png" /></li>
+            <li><img src="assets\images\reactico.png" /></li>
+            <li><img src="assets\images\photoshopico.png" /></li>
+            <li><img src="assets\images\stackoverflowico.png" /></li>
+          </ul>
+        </div>
+      </article>
+      <hr />
+      <h3>I currently am specializing in front end development. I feel extremely comfortable working with HTML,CSS and Javscript. I dont shy away from libraries however and have experience with bootstrap and react respectively, but even if there isnt
+        something i dont know i am quite proficient at using stackoverflow. I am also familiar with photoshop and can manipulate and create simple designs within the application. I am wanting to expand to backend soon by learning PHP and SQL so
+        create more in depth projects and products.</h>
+  </section>
+  <hr class="seperator" />
+  <!-- project section -->
+  <div id="projects" class="slantSection1">
+    <h1>My recent projects:</h1>
+    <div class="card mb-3 topProject">
+      <img class="card-img-top spanningImage" src="assets\images\paretOS.gif" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">paretOS</h5>
+        <p class="card-text">Open source web application meant to help new developers connect with peers and learn new technologies and find jobs. I worked with this team of ~10 to make the application more responsive and help with some navbar layout
+          issues on mobile and tablet viewports.</p>
+        <a href="https://www.paret0.com/" target="_blank" class="btn btn-primary">View live</a>
+        <a href="https://github.com/mikhael28/paretOS/pull/61" target="_blank" class="btn btn-primary">View Code</a>
+      </div>
+    </div>
+    <div class="cardContainer">
+      <div class="smallProjects">
+        <div class="card mobileCard">
+          <img class="card-img-top cardImg" src="assets\images\Scoreboard.gif" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">React scoreboard</h5>
+            <p class="card-text">This is a project i made in react using state to manage multiple players and their scores in a game. You can add and subtract scores and add or delete players.</p>
+            <a href="https://youspeakcubic.github.io/React-scoreboard/" target="_blank" class="btn btn-primary">View live</a>
+            <a href="https://github.com/Youspeakcubic/React-scoreboard" target="_blank" class="btn btn-primary">View Code</a>
+          </div>
+        </div>
+      </div>
+      <div class="smallProjects">
+        <div class="card mobileCard">
+          <img class="card-img-top cardImg" id="mealImg" src="assets\images\meal.gif" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Random Meal generator</h5>
+            <p class="card-text">This web application was made using just javascript. I used the new fetch feature of javascript to pull from the meal database api, i then took the json data and created elements.</p>
+            <a href="https://youspeakcubic.github.io/Random-Meal-Generator/" target="_blank" class="btn btn-primary">View live</a>
+            <a href="https://github.com/Youspeakcubic/Random-Meal-Generator" target="_blank" class="btn btn-primary">View Code</a>
+          </div>
+        </div>
+      </div>
+      <div class="smallProjects">
+        <div class="card mobileCard">
+          <img class="card-img-top cardImg" src="assets\images\pet.gif" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Pocket pets</h5>
+            <p class="card-text">A pet simulator made in javascript. I took this project as a chance to learn keyframe animations and further manipulating the dom through adding animation classes.</p>
+            <a href="https://youspeakcubic.github.io/Pocket-pets/" target="_blank" class="btn btn-primary">View live</a>
+            <a href="https://github.com/Youspeakcubic/Pocket-pets" target="_blank" class="btn btn-primary">View Code</a>
+          </div>
+        </div>
+      </div>
+      <div class="smallProjects">
+        <div class="card mobileCard">
+          <img class="card-img-top cardImg" src="assets\images\piano.PNG" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Javascript Piano</h5>
+            <p class="card-text">Using event listeners i had javascript wait for a certain key to be pressed and play a sound. Through this method i made a functional piano.</p>
+            <a href="https://youspeakcubic.github.io/pianoJS/" target="_blank" class="btn btn-primary">View live</a>
+            <a href="https://github.com/Youspeakcubic/pianoJS" target="_blank" class="btn btn-primary">View Code</a>
+          </div>
+        </div>
+      </div>
+      <div class="smallProjects">
+        <div class="card mobileCard">
+          <img class="card-img-top cardImg" src="assets\images\weather.gif" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">What should i wear?</h5>
+            <p class="card-text">Much like the random meal generator this web application pulls using the fetch api feature of javascript, however i learned to take input using this project through queries.</p>
+            <a href="https://youspeakcubic.github.io/Whatshouldiweartoday/" target="_blank" class="btn btn-primary">View live</a>
+            <a href="https://github.com/Youspeakcubic/Whatshouldiweartoday" target="_blank" class="btn btn-primary">View Code</a>
+          </div>
+        </div>
+      </div>
+      <div class="smallProjects">
+        <div class="card mobileCard">
+          <img class="card-img-top cardImg" src="assets\images\signup.gif" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Sign up form</h5>
+            <p class="card-text">A simple sign up form i used to learn the basics of AJAX, It checks data inputted to see if it is valid and injects a seperate html file into the site based on failure or success.</p>
+            <a href="https://youspeakcubic.github.io/sign-up-demo/" target="_blank" class="btn btn-primary">View live</a>
+            <a href="https://github.com/Youspeakcubic/sign-up-demo" target="_blank" class="btn btn-primary">View Code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr id ="projectSeperator" class="seperator" />
+  </div>
+  <!-- education section -->
+  <div class="slantsection2">
+    <div class="educationTab" id="education">
+      <h1>Education:</h1>
+      <hr />
+      <h2>San Antonio College</h2>
+      <ul>
+        <li>Associates in computer programming</li>
+      </ul>
+      <h2>Team Tree house</h2>
+      <ul>
+        <li>Online course work on front and back end development</li>
+        <li>Courses Taken:</li>
+        <ul>
+          <li>AJAX basics</li>
+          <li>Bootstrap 4 basics</li>
+          <li>Intro to HTML and CSS</li>
+          <li>JavaScript Functions </li>
+          <li>Javascript Arrays </li>
+          <li>Javascript Basics</li>
+          <li>Javascript Loops</li>
+          <li>Javascript Objects</li>
+          <li>Javascript Objects</li>
+          <li>Javascript and the DOM</li>
+          <li>React Components</li>
+          <li>React basics</li>
+          <li>SQL basics</li>
+        </ul>
+      </ul>
+      <h2>Roosevelt High school</h2>
+      <ul>
+        <li>Attended comp sci magnet program</li>
+        <li>SAT:1370</li>
+        <li>GPA:3.4</li>
+        <li>Class of 2019</li>
+      </ul>
+    </div>
+    <div class="aboutTab">
+      <h1>About me:</h1>
+      <p>I was born in Miami Florida, I spent my days as a child riding BMX and going to beaches. I loved playing with electronics and computers when i was home. I enjoyed tinkering and i now have a collection of pc parts and electronics that fills
+        my room to this day to show for it. I moved to Texas when i was 14 and was distraught by the whole new place i was surrounded by, but i found a passion for climbing here that has stuck with me. I climb mountains through failures and falls
+        much like my programming career with its pitfalls, but i would not have it any other way. I love eating Ramen and watching anime in my off time, i also like thrifting and book shopping. My favorite book right now would have to be "1984 by
+        George Orwell, I enjoy dystopian society books as they often relate to our own lives although extremely exaggerated." </p>
+    </div>
+    <img class="educationImg" src="assets\images\sitting.png" alt="sitting img">
+    <hr class="seperator" />
+  </div>
+  <!-- Contact form -->
+  <div class="contactForm" id="contact">
+    <h1>Contact me:</h>
+      <hr />
+      <form class="needs-validation contactAreas" action="mailto:delantho327@gmail.com" method="GET" novalidate>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationCustom01">First name</label>
+            <input type="text" name="subject" class="form-control" id="validationCustom01" placeholder="First name" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationCustom02">Last name</label>
+            <input type="text" name="subject" class="form-control" id="validationCustom02" placeholder="Last name" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-12 mb-3">
+            <label for="exampleFormControlTextarea1">Your Message:</label>
+            <textarea name="body" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+
+          </div>
+          <button class="btn btn-primary" value="Send" type="submit">Submit form</button>
+      </form>
+      <div class="contactLinks">
+        <div>
+          <a href="https://www.linkedin.com/in/anthony-de-la-torre-807895205/">
+            <img class="contactImg" src="assets\images\linkedinico.png" />
+            <h3>LinkedIn</h>
+          </a>
+        </div>
+        <div>
+          <a href="mailto:delantho327@gmail.com">
+            <img class="contactImg" src="assets\images\emailico.png" />
+            <h3>email</h>
+          </a>
+        </div>
+        <div>
+          <a href="tel:+13054391417" >
+            <img class="contactImg" src="assets\images\phoneico.jpg" />
+            <h3>(305) 438-1417</h>
+          </a>
+        </div>
+      </div>
+  </div>
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+  <script src="assets\javascript\typewriter.js"></script>
+</body>
+
+</html>
